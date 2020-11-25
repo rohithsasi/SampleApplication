@@ -1,0 +1,125 @@
+package com.restart.myapplication.ui.slideshow
+
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+
+class SlideshowViewModel : ViewModel() {
+
+    private val _text = MutableLiveData<String>().apply {
+        value = "This is slideshow Fragment\nasdasdas\nasdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\nasdasdas\n" +
+                "asdasdsa\n" +
+                "asdasdas\n"
+    }
+    val text: LiveData<String> = _text
+}
